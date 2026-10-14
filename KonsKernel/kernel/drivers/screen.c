@@ -3,6 +3,9 @@
 #define VGA_ADDRESS 0xB8000
 #define ATTRIBUTE_BYTE 0x0F
 
+// "Kannst du da auch reinschreiben wer gefragt hat?
+// Joseam, 12.10.26 15:18, Nederlands in zwolle
+
 void print(const char *message) {
     unsigned char *vga = (unsigned char *) VGA_ADDRESS;
     int i = 0;
